@@ -5,9 +5,11 @@ const diagram = $(go.Diagram, 'diagram', {
   'undoManager.isEnabled': true
 })
 
+/******************** Node Template ********************/
 diagram.nodeTemplateMap.add('node1',
   $(go.Node, go.Panel.Position,
     { width: 230, height: 240 },
+
     new go.Binding('position'),
 
     // 背景图片与图标
@@ -71,7 +73,9 @@ diagram.nodeTemplateMap.add('node2',
     )
   )
 )
+/******************** node template ********************/
 
+/******************** Link Template ********************/
 diagram.linkTemplateMap.add('link1',
   $(go.Link,
     { routing: go.Link.Normal },
@@ -132,6 +136,7 @@ diagram.linkTemplateMap.add('link2',
     )
   )
 )
+/******************** link template ********************/
 
 const nodeDataArray = [
   {
