@@ -143,9 +143,9 @@ const nodeDataArray = [
     position: new go.Point(0, 0),
     category: 'node1',
     key: 'apply',
-    bgSrc: './images/circle_1.png',
-    iconSrc: './images/icon-apply.png',
-    textBgSrc: './images/text-bg-1.png',
+    bgSrc: '../src/images/circle_1.png',
+    iconSrc: '../src/images/icon-apply.png',
+    textBgSrc: '../src/images/text-bg-1.png',
 
     text: '申请'
   },
@@ -154,9 +154,9 @@ const nodeDataArray = [
     position: new go.Point(500, 0),
     category: 'node1',
     key: 'complete',
-    bgSrc: './images/circle_2.png',
-    iconSrc: './images/icon-complete.png',
-    textBgSrc: './images/text-bg-1.png',
+    bgSrc: '../src/images/circle_2.png',
+    iconSrc: '../src/images/icon-complete.png',
+    textBgSrc: '../src/images/text-bg-1.png',
 
     text: '完成'
   },
@@ -165,9 +165,9 @@ const nodeDataArray = [
     position: new go.Point(300, 300),
     category: 'node2',
     key: 'coor',
-    bgSrc: './images/circle_3.png',
-    iconSrc: './images/icon-feedback.png',
-    textBgSrc: './images/text-bg-2.png',
+    bgSrc: '../src/images/circle_3.png',
+    iconSrc: '../src/images/icon-feedback.png',
+    textBgSrc: '../src/images/text-bg-2.png',
 
     text: '协调'
   }
@@ -213,7 +213,7 @@ const linkDataArray = [
     from: 'apply', to: 'complete',
     fromSpot: new go.Spot(0.8, 0.65),
     toSpot: new go.Spot(0, 0.65),
-    arrowSrc: './images/arrow.png',
+    arrowSrc: '../src/images/arrow.png',
 
     text: '申请中'
   }
